@@ -4,3 +4,12 @@ h1{
     float:left;
     margin: 0px 0px 0px;
 }
+
+nav>ul>li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 20px;
+    margin: 0px 0px 0px;
+}
