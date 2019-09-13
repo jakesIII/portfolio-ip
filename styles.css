@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+}
+
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
     float:left;
-    margin: 6px 0px 0px;
+    margin: 4px 0px 0px;
 }
 
 nav>ul>li{
@@ -11,7 +15,7 @@ nav>ul>li{
     flex-direction: row;
     float: right;
     padding: 20px;
-    margin: 0px 0px 0px;
+    margin: -10px 0px 0px;
 }
 
 nav>ul>li> a{
@@ -19,4 +23,21 @@ nav>ul>li> a{
     font-style: oblique;
     font-family: cursive;
     margin-top: 0px;
+    color: black
+}
+
+img{
+    height: 500px;
+}
+
+.intro{
+    font-size: 24px;
+    letter-spacing: none;
+    font-style: oblique;
+}
+
+header{
+    margin: 0px 0px 1px;
+    height: 60px;
+    background-color: rgb(100, 95, 95);
 }
