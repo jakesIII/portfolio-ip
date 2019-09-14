@@ -68,6 +68,7 @@ header{
     margin-left: 15px;
     text-align: left;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 3px 3px 5px gray;
 }
 .resume{
     margin: 100px 0px 50px 0px;
@@ -80,6 +81,11 @@ header{
     font-size: 18px;
     flex-wrap: wrap;
     
+}
+
+.resume1>ul>li{
+    font-family: 'Rancho', cursive;
+    font-size: 28px;
 }
 
 h2{
@@ -95,6 +101,7 @@ h2{
 
 .resume1>h3{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -104,6 +111,54 @@ h2{
     /* border: 1px solid black; */
     margin: 20px;
     box-sizing: content-box;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+.container{
+    width: 95%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.html{
+    width: 90%; 
+    background-color:rgb(204, 180, 42);
+    border-radius: 5px;
+}
+.css{
+    width: 80%; 
+    background-color:rgb(204, 180, 42);
+    border-radius: 5px;
+}
+.js{
+    width: 65%; 
+    background-color: rgb(204, 180, 42);
+    border-radius: 5px;
+}
+.php{
+    width: 60%; 
+    background-color: rgb(204, 180, 42);
+    border-radius: 5px;
+} 
+
+#portfolio>h3{
+    text-align: center; 
+    margin: 50px 0px 50px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+#portfolio>p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
 }
 
 #contacts{
