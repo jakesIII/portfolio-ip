@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -39,7 +40,8 @@ nav>ul>li> a:hover{
     letter-spacing: none;
     font-style: oblique;
     /* background: linear-gradient(to right, #232526, #414345); */
-    background-image: url(https://www.analyticsindiamag.com/wp-content/uploads/2019/05/Latest-UI-UX-Trends-2018.jpg);
+    /* background-image: url(https://www.analyticsindiamag.com/wp-content/uploads/2019/05/Latest-UI-UX-Trends-2018.jpg); */
+    background-image: url(https://lh3.googleusercontent.com/iJLfWRnsteQYyhpl5vWulhJFlycTei9q8TnE_tkIRUIt3p4jkd5KObIUBDIjkmcd1GyYFAIE1xk0L6OutWwNSVQZp4RW90GQY6gRrVnqqH-UMMCwXx7vl6TJKYOUpbiqU5hYvASqWYVs7JTN7FFFo_POMA6J0WD_NCgYr25kqD_2BuxhAAF5Dvsn3kGZJ5jo5g08BtjWmHJ-X-YhvmVqZRIFS3ulKmlop5QOdVbgtZaeIypEdWpziZYA0-KVpZIBzoqb7wcZCYkRR3MarmO1Os23FUshC5kkfSQOG7T1UCHZYSkapReuCXeGt8ok32HQNtiHn0X20LpfktCoC4y7scSQ-z3boc-L43zjqGZtk_iVYBh4d2CtJ123OXjx3yaJ-TOZKRF1jN0Bl73nJXLOUl1mqJQ3YxqUnKcarwY918FWMKgxkOwClDRIY9ALn-QcsGHG5NM2JqilFYCb3x4IRKftgcx_iKBRhweqf0_PQHOzkDISsfJLiQHbmfc_DqkvMi0v8TWfIqbMeDLHrkL37jR_KvlG49CScxUE_Pw9pScajNIiuBhgpv_8XiGfzE3ySIHbYsXsTeLkUdMIRsSt72PNeOylCPOhGahY0i9DeM0diSOXKHg42bN3NjNiH2QVfhS1UGcbeODGabtEeybM8SeHyIdesNb4BECCLDTPakR7HV1Ypw-qmEvnNRWrFdR5nzEkwy_m_JC02CPq1a2yrj0A4v9ipq3y11CnBETfV4Q5knc=w1156-h770-no);
     background-repeat: no-repeat;
     background-size: cover;
     height: 710px;
@@ -50,14 +52,14 @@ nav>ul>li> a:hover{
 
 }
 
-.intro img{
+/* .intro img{
     height:400px;
     width:400px;
     border-radius: 300px;
     margin-left: 50px;
     margin-right:50px;
     
-}
+} */
 
 header{
     margin: 0px 0px 1px;
@@ -67,14 +69,46 @@ header{
 }
 
 .intro p{
-    color: rgb(185, 174, 174);
-    font-size: 60px;
+    color: rgb(73, 70, 70);
+    font-size: 50px;
     letter-spacing: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 370px;
+    margin-left: 15px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.resume{
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+}
+#resume{
+    display: flex;
+    margin: 0px 0px 100px 0px;
+    justify-content: space-around;
+    font-size: 18px;
+    flex-wrap: wrap;
     
 }
 
-#resume{
-    display: flex;
-    margin: 100px 0px 100px 0px;
+h2.resume{
+    border-bottom: 2px solid black;
+    /* padding: 0px 10px 0px 10px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.resume1{
+    width: 400px;
+}
+
+.resume1>h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+.border1{
+    /* border: 1px solid black; */
+    margin: 20px;
+    box-sizing: content-box;
 }
